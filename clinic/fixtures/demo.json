@@ -1,0 +1,8 @@
+[
+ {"model":"clinic.specialty","pk":1,"fields":{"name":"Family Medicine","slug":"family-medicine"}},
+ {"model":"clinic.specialty","pk":2,"fields":{"name":"Cardiology","slug":"cardiology"}},
+ {"model":"clinic.specialty","pk":3,"fields":{"name":"Pediatrics","slug":"pediatrics"}},
+ {"model":"clinic.doctor","pk":1,"fields":{"full_name":"Dr. Andrea Santos","specialty":1,"bio":"Provides primary care for adults and families, preventive checkups, and general health consultations.","consultation_fee":"650.00","photo":"doctors/demo_doctor.png","is_accepting":true,"date_created":"2026-01-01T00:00:00Z"}},
+ {"model":"clinic.doctor","pk":2,"fields":{"full_name":"Dr. Miguel Reyes","specialty":2,"bio":"Focuses on heart health, blood pressure, and cardiovascular risk assessment.","consultation_fee":"950.00","photo":null,"is_accepting":true,"date_created":"2026-01-01T00:00:00Z"}},
+ {"model":"clinic.doctor","pk":3,"fields":{"full_name":"Dr. Clara Mendoza","specialty":3,"bio":"Provides child wellness visits, routine consultations, and parent guidance.","consultation_fee":"700.00","photo":null,"is_accepting":true,"date_created":"2026-01-01T00:00:00Z"}}
+]
